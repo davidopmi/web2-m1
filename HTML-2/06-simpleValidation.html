@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <form>
+            <!--simple html validation(provided by HTML5 without using any JS)
+                required or required="true"
+                pattern
+                input type: email
+                for number: min and max
+            -->
+            <label for="username"> username:</label>
+            <input type="text" id="username" required pattern=".{5,10}" />
+
+            <label for="password"> password:</label>
+            <input type="password" id="password" required placeholder="please provide password...."/>
+            
+            <label for="email">email:</label>
+            <input type="email" id="email" required="true" placeholder="please provide email...."/>
+            
+            <label for="quantity"> quantity:</label>
+            <input type="number" id="quantity" required min="10" max="20" />
+            
+            <button>Submit</button>
+            
+        </form>
+    </body>
+</html>

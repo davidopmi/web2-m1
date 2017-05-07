@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <form>
+            <label for="username"> username:</label>
+            <input type="text" id="username" required pattern=".{5,10}" />
+            
+            <!--1 radio button: user could only select ONE value
+            type: radio
+            checked: by default, select it
+            name: sex  : same name radio buttons will become one group: you could 
+            only select ONE
+            value: value to be send to server
+            -->
+            <label>select your sex....</label><br>
+            <input type="radio" name="sex" value="male" checked/> Handsome Man <br>
+            <input type="radio" name="sex" value="female" /> Beautifle woman <br>
+            <input type="radio" name="sex123" value="other" /> dont know.... <br>
+
+            <!--2 checkbox
+            purpose: for user to select multiple values
+            checked: by default, select it
+            name: multiple checkbox can have same name attribute. Once submitted: 
+            query string: foods:chinese
+                          foods:jap
+                          foods:mex
+            url: ?foods=chinese&foods=jap&foods=mex
+            -->
+            <label>select your favorites foods:</label><br>
+            <input type="checkbox" name="foods" value="chinese" checked/> chinese foods <br>
+            <input type="checkbox" name="foods" value="jap"/> jap foods <br>
+            <input type="checkbox" name="foods" value="mex"/> mex foods <br>
+            <!--3 drop-down:select
+            //structure: 
+            <select>
+                <option></option>
+                .................
+                <option></option>
+            </select>
+            //important attributes: 
+            name: put this name attribute on the select tag
+            value: put this value attribute on the option tag(value submitted to the server)
+            selected: by default, select it
+            multiple: This Boolean attribute indicates that multiple options can be selected in the list. If it is not specified, then only one option can be selected at a time.
+            query string: 
+                country:england
+                country:us
+                country:mex
+            request url: /?country=england&country=us&country=mex
+            
+            -->
+            <label>where are your from?</label><br>
+            <select name="country" multiple>
+                <!--<option >please select country.....</option>-->
+                <option value="china">Mainland China</option>
+                <option value="england">British England</option>
+                <option value="us" selected>U.S.A</option>
+                <option value="mex">Mexico</option>
+            </select>
+            
+            
+            <!--textarea
+            The <textarea> tag defines a multi-line text input control.
+            rows: Specifies the visible number of lines in a text area
+            cols: Specifies the visible width of a text area
+            -->
+            <textarea rows="4" cols="50">
+            At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies. 
+            </textarea>
+            <button>Submit</button>
+            
+        </form>
+    </body>
+</html>
