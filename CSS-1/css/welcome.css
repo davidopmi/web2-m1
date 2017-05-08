@@ -1,0 +1,51 @@
+/*change ALL h1
+to be red color*/
+
+div{
+    color:red;
+        /*for border: you have to specify all 3 border related
+        properties to be able to see the border...
+        */
+    /*border-color: green ; */
+    /*border-width: 10px; */
+    /*border-style: solid ;*/
+    /*short hand of writing the border: in any order*/
+    border: dashed 10px green ;
+
+    
+    /*for background */
+    /*background-color: green;*/
+    /*background-image: url() do not put quotation */
+    /*background-image: url(https://farm7.staticflickr.com/6068/6042217185_89a79dbc00.jpg);*/
+    /*background-repeat:no-repeat;*/
+    /*background-size:20%;*/
+
+}
+
+
+
+
+
+
+/*rgba
+a: alpha : 0.0(blur) - 1.0(solid)
+*/
+/*h1{*/
+/*    color:rgba(0,0,0,1);*/
+/*}*/
+
+/*
+rgb(255,255,255) all white
+rgb(0,0,0)  all black
+*/
+/*h1 {*/
+/*    color: rgb(0,0,0);*/
+/*}*/
+
+/*hexidecimal: #FFFFFF white 
+
+#000000 black
+*/
+/*h3{*/
+/*    color:#2B6BD9;*/
+/*}*/
