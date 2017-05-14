@@ -1,0 +1,16 @@
+/*3 basic selector: element class id*/
+.completed{
+    text-decoration: line-through; 
+}
+
+/*
+for checkbox and radio button, you can use 
+checked property to let them stay checked
+*/
+
+/*the purposes of this example is to make you 
+realize:
+1) when and how to use specific selector
+2) how to use chrome developer tool to change style on the fly
+3) use chrome developer tool to check web elements
+*/

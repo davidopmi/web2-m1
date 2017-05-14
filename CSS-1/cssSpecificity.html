@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            body{
+                background-color: yellow;
+            }
+            ul{
+                background-color:green;
+            }
+            /*specificity: you can have multiple styles targeting one elemnt.
+            when there is confilct, following this general rule:;
+		1) id : 100 points;
+		2) class/attribute = 10 points;
+		3) element/tags = 1 points ;
+		4) in-line style = 1000 points: its nuclear weapon, dont use it on daily basis.
+		*/
+            .highlight{
+                background-color:red;
+            }
+            li{
+                background-color:blue;
+            }
+            #l1{
+                background-color:pink;
+            }
+        </style>
+    </head>
+    <body>
+        <p>this is css specificity example</p>
+        <ul>
+            <li class="highlight" id="l1" style="background-color:orange;">David</li>
+            <li>Jack</li>
+            <li>Lisa</li>
+            <li class="highlight">Lnn</li>
+        </ul>
+    </body>
+</html>

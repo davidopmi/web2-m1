@@ -1,0 +1,13 @@
+
+#p1{
+    text-decoration:line-through;
+}
+#p2{
+    text-decoration: overline;
+}
+#p3{
+    text-decoration: underline; 
+}
+#p4{
+    text-decoration: blink; 
+}

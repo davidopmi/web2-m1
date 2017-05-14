@@ -1,0 +1,81 @@
+/**{*/
+/*    background-color: red; */
+/*}*/
+
+/*Descendant Selector: it takes two or more selectors and chain them together*/
+/*requirement 1 : 
+select only the <a> that lives inside <li>
+li .hello : select the elements have the hello class that live inside <li> tag
+*/
+/*li a {*/
+/*    color: red ;    */
+/*}*/
+
+/*
+/*Adjacent Selector: 
+let us select elements that comes "RIGHT" after another element:
+Requiremenet 2: 
+in our case, only those ul that comes right after h4, 
+not inside h4
+
+notes: 
+1) adjacent select siblings, not parent
+2)ul after h4: not include h4
+*/
+/*h4 + ul{*/
+/*    background-color: green ; */
+/*}*/
+
+/*Attribute Selector: Selector[attributename="value"] select element based on any attribute's value
+input[type="text"]{
+	background: blue;
+}
+requirement 3: if your a tag href goes to google,
+please change its background color to be red
+*/
+/*a[href="http://www.google.com"]{*/
+/*    background-color: red; */
+/*}*/
+
+/*
+requirement 4: if you want to select 
+input whose type attribute equal to text?
+*/
+/*input[type="text"]{*/
+/*    background-color: yellow ; */
+/*}*/
+
+/*nth of type
+requirement 5: 
+ul:nth-of-type(3) : select the 3rd ul element-- note, its the 3rd, not the index!!!;
+*/
+/*li:nth-of-type(2){*/
+/*    background-color: red; */
+/*}*/
+/*li:nth-of-type(odd){*/
+/*    background-color: red; */
+/*}*/
+/*li:nth-of-type(even){*/
+/*    background-color: green; */
+/*}*/
+
+/*pseudo-class: hover, and a tag related
+please refer to: https://www.w3schools.com/css/css_pseudo_classes.asp
+*/
+/*1: hover*/
+/*requirement 6: if hover/mouse over h1 elements
+I want it color to be red*/
+/*h1:hover{*/
+/*    background-color: red; */
+/*}*/
+
+/*2: anchor tag related*/
+/*: link: unvisited link*/
+a:link{
+     color: red; 
+}
+
+/*: visited: visited link */
+a:visited{
+    color: green;
+}

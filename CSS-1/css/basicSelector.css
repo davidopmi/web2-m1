@@ -1,0 +1,24 @@
+/*body{*/
+/*    background-color: yellow; */
+/*}*/
+
+/*selector1: by element: select all elements*/
+div{
+    background-color: green ; 
+}
+
+
+/*selector2: by id
+note: id has to be unique within a page
+its not syntax error but bad design 
+*/
+#p1{
+    background-color: pink; 
+}
+
+/*selector 3: by class
+one class attribute can be used on multiple elements
+*/
+.redClass{
+    background-color: red; 
+} 
