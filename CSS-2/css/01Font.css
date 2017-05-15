@@ -1,0 +1,54 @@
+/*1: font-family*/
+h1{
+    font-family: Indie Flower ; 
+}
+p{
+    font-family: Inknut Antiqua ; 
+}
+
+/*2: font-size: how large of your character
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
+couple of unites:
+1: px: you can use chrome dev tools to quickly try different font-size
+2: em : relative font-size
+The size of an em value is dynamic. When defining the font-size property,
+an em is equal to the size of the font that applies to the parent of the element in question.
+3: % : Sets the font-size to a percent of  the parent element's font size
+
+in our example, that is double the font size for the span element than the parent elements(the rest of the p. )
+*/
+
+/*3: font-weight: 
+bold
+normal
+100-800 100 200 300 
+*/
+/*4: line-height : 1.5 2 */
+/*5: text-align: left center right*/
+/*6: text-decoration: line-through underline*/
+/*7: text-transform: uppercase lowercase*/
+body{
+    font-size: 15px ; 
+}
+h1{
+    text-align: center;
+}
+#p1{
+    font-size: 100%; 
+    font-weight: bold; 
+    line-height: 1.5;
+    text-align: left;
+    text-decoration: line-through; 
+    text-transform: uppercase;
+}
+#p2{
+    font-size: 15px; 
+    font-weight: normal; 
+    text-align: right; 
+    text-decoration: underline;
+}
+span{
+    font-size: 2em ; 
+    border: 2px solid red;
+    font-weight: 800;
+}
