@@ -1,0 +1,41 @@
+body{
+    border:10px grey solid;
+    width:70%;
+    /*margin is for center the body*/
+    margin: 0 auto; 
+    /*padding: add space to content and border*/
+    padding:20px;
+}
+
+.date{
+    text-transform: uppercase;
+    color:lightblue;
+    letter-spacing: 0.2em; 
+}
+
+.quote{
+    border-left: 5px grey solid;
+    padding-left: 5px;
+}
+
+.post{
+    margin-bottom: 10px;
+}
+
+hr {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
