@@ -1,0 +1,32 @@
+/*body{*/
+/*    background-color: red;*/
+/*}*/
+
+/*iamge section:
+1) width: px vs %
+2) float
+3) margin
+*/
+img{
+    /*width:100px;*/
+    width: 30%;
+    float:left;
+    margin:1.6%;
+}
+/*
+for font:
+1) google fonts
+2) text-transform
+3) to center your text:
+   a) text-align: center ; 
+   b) margin: 0 auto ; 
+*/
+p{
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 400 ; 
+    margin-left: 1.6%;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    text-align: center;
+}
