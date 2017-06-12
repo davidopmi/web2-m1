@@ -66,3 +66,40 @@ function checks2(arr){
 
 console.log(checks2(values)) ; 
 
+// 
+var values = [1,2,3,4] ; 
+
+//question 3: find out the biggest value in array
+function findMax(arr){
+  var newArr = arr.sort(function(a,b){
+    return a-b ; 
+  })
+  var result = newArr[newArr.length-1] ; 
+  return result  ; 
+  
+  /*var big = arr[0] ; 
+  for(var i = 0 ; i <arr.length ; i++){
+    if(arr[i] > big){
+      big = arr[i] ; 
+    }
+  }
+  return big ;  */
+}
+
+console.log(findMax(values)) ; 
+
+
+/*question 4:  write a function to get total value
+function sumArr(arr){
+  var result =0 ; 
+  for(var i = 0 ; i < arr.length ; i++){
+    result+=arr[i] ; 
+  }
+  return result ; 
+}
+console.log(sumArr(values)) ; 
+*/
+/*
+console.log(values.reduce(function(prev, current){
+  return prev+current ; 
+}));*/ 
